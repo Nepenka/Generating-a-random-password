@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C572BCC19B10CA20958E49B /* Pods_Generating_a_random_password.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A8E973B36820458F5F7176 /* Pods_Generating_a_random_password.framework */; };
+		9D176E182B1792FC00920CCF /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E172B1792FC00920CCF /* SettingButton.swift */; };
+		9D176E1A2B17951B00920CCF /* SettingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E192B17951B00920CCF /* SettingLabel.swift */; };
+		9D176E1C2B17969100920CCF /* RandomPasswordGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E1B2B17969100920CCF /* RandomPasswordGeneration.swift */; };
+		9D176E1F2B17A1DC00920CCF /* AnimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E1E2B17A1DC00920CCF /* AnimateButton.swift */; };
+		9D176E212B17B34600920CCF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E202B17B34600920CCF /* SecondViewController.swift */; };
+		9D176E232B17CCAC00920CCF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E222B17CCAC00920CCF /* HistoryViewController.swift */; };
+		9D176E272B17D53500920CCF /* PasswordModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E252B17D53500920CCF /* PasswordModel.xcdatamodeld */; };
+		9D176E292B17D57E00920CCF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E282B17D57E00920CCF /* CoreDataStack.swift */; };
+		9D176E2B2B17D6A900920CCF /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D176E2A2B17D6A900920CCF /* Password.swift */; };
+		9D72845B2B178860004C598A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72845A2B178860004C598A /* AppDelegate.swift */; };
+		9D72845D2B178860004C598A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72845C2B178860004C598A /* SceneDelegate.swift */; };
+		9D72845F2B178860004C598A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72845E2B178860004C598A /* ViewController.swift */; };
+		9D7284642B178862004C598A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7284632B178862004C598A /* Assets.xcassets */; };
+		9D7284672B178862004C598A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7284652B178862004C598A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36A8E973B36820458F5F7176 /* Pods_Generating_a_random_password.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generating_a_random_password.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB11AFE2148FD6D0AD8F67D /* Pods-Generating a random password.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generating a random password.debug.xcconfig"; path = "Target Support Files/Pods-Generating a random password/Pods-Generating a random password.debug.xcconfig"; sourceTree = "<group>"; };
+		9D176E172B1792FC00920CCF /* SettingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
+		9D176E192B17951B00920CCF /* SettingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabel.swift; sourceTree = "<group>"; };
+		9D176E1B2B17969100920CCF /* RandomPasswordGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPasswordGeneration.swift; sourceTree = "<group>"; };
+		9D176E1E2B17A1DC00920CCF /* AnimateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateButton.swift; sourceTree = "<group>"; };
+		9D176E202B17B34600920CCF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9D176E222B17CCAC00920CCF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9D176E262B17D53500920CCF /* PasswordModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordModel.xcdatamodel; sourceTree = "<group>"; };
+		9D176E282B17D57E00920CCF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		9D176E2A2B17D6A900920CCF /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		9D7284572B178860004C598A /* Generating a random password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generating a random password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D72845A2B178860004C598A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D72845C2B178860004C598A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D72845E2B178860004C598A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D7284632B178862004C598A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7284662B178862004C598A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D7284682B178862004C598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1803643C62D54C355C34B9 /* Pods-Generating a random password.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generating a random password.release.xcconfig"; path = "Target Support Files/Pods-Generating a random password/Pods-Generating a random password.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7284542B178860004C598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C572BCC19B10CA20958E49B /* Pods_Generating_a_random_password.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029B18F2450D3A8954C76E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EB11AFE2148FD6D0AD8F67D /* Pods-Generating a random password.debug.xcconfig */,
+				AF1803643C62D54C355C34B9 /* Pods-Generating a random password.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7490C9C072BB92AF6D6D27F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36A8E973B36820458F5F7176 /* Pods_Generating_a_random_password.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D176E152B17929B00920CCF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9D72845A2B178860004C598A /* AppDelegate.swift */,
+				9D72845C2B178860004C598A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9D176E162B1792B600920CCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D7284632B178862004C598A /* Assets.xcassets */,
+				9D7284652B178862004C598A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D176E242B17D51C00920CCF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9D176E252B17D53500920CCF /* PasswordModel.xcdatamodeld */,
+				9D176E282B17D57E00920CCF /* CoreDataStack.swift */,
+				9D176E2A2B17D6A900920CCF /* Password.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9D72844E2B17885F004C598A = {
+			isa = PBXGroup;
+			children = (
+				9D176E242B17D51C00920CCF /* CoreData */,
+				9D176E162B1792B600920CCF /* Resources */,
+				9D176E152B17929B00920CCF /* Application */,
+				9D7284592B178860004C598A /* Generating a random password */,
+				9D7284582B178860004C598A /* Products */,
+				029B18F2450D3A8954C76E57 /* Pods */,
+				7490C9C072BB92AF6D6D27F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7284582B178860004C598A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7284572B178860004C598A /* Generating a random password.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7284592B178860004C598A /* Generating a random password */ = {
+			isa = PBXGroup;
+			children = (
+				9D72845E2B178860004C598A /* ViewController.swift */,
+				9D176E202B17B34600920CCF /* SecondViewController.swift */,
+				9D176E222B17CCAC00920CCF /* HistoryViewController.swift */,
+				9D176E172B1792FC00920CCF /* SettingButton.swift */,
+				9D176E192B17951B00920CCF /* SettingLabel.swift */,
+				9D176E1B2B17969100920CCF /* RandomPasswordGeneration.swift */,
+				9D176E1E2B17A1DC00920CCF /* AnimateButton.swift */,
+				9D7284682B178862004C598A /* Info.plist */,
+			);
+			path = "Generating a random password";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7284562B178860004C598A /* Generating a random password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D72846B2B178862004C598A /* Build configuration list for PBXNativeTarget "Generating a random password" */;
+			buildPhases = (
+				409D5E38D05223622CE679D8 /* [CP] Check Pods Manifest.lock */,
+				9D7284532B178860004C598A /* Sources */,
+				9D7284542B178860004C598A /* Frameworks */,
+				9D7284552B178860004C598A /* Resources */,
+				701B3AD7D63D71CE9CF994E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Generating a random password";
+			productName = "Generating a random password";
+			productReference = 9D7284572B178860004C598A /* Generating a random password.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D72844F2B17885F004C598A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9D7284562B178860004C598A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9D7284522B17885F004C598A /* Build configuration list for PBXProject "Generating a random password" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D72844E2B17885F004C598A;
+			productRefGroup = 9D7284582B178860004C598A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7284562B178860004C598A /* Generating a random password */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7284552B178860004C598A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7284672B178862004C598A /* LaunchScreen.storyboard in Resources */,
+				9D7284642B178862004C598A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		409D5E38D05223622CE679D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generating a random password-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701B3AD7D63D71CE9CF994E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generating a random password/Pods-Generating a random password-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generating a random password/Pods-Generating a random password-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Generating a random password/Pods-Generating a random password-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7284532B178860004C598A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D176E2B2B17D6A900920CCF /* Password.swift in Sources */,
+				9D176E212B17B34600920CCF /* SecondViewController.swift in Sources */,
+				9D176E182B1792FC00920CCF /* SettingButton.swift in Sources */,
+				9D176E1F2B17A1DC00920CCF /* AnimateButton.swift in Sources */,
+				9D72845F2B178860004C598A /* ViewController.swift in Sources */,
+				9D176E272B17D53500920CCF /* PasswordModel.xcdatamodeld in Sources */,
+				9D176E1A2B17951B00920CCF /* SettingLabel.swift in Sources */,
+				9D176E292B17D57E00920CCF /* CoreDataStack.swift in Sources */,
+				9D72845B2B178860004C598A /* AppDelegate.swift in Sources */,
+				9D176E232B17CCAC00920CCF /* HistoryViewController.swift in Sources */,
+				9D72845D2B178860004C598A /* SceneDelegate.swift in Sources */,
+				9D176E1C2B17969100920CCF /* RandomPasswordGeneration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D7284652B178862004C598A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7284662B178862004C598A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D7284692B178862004C598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D72846A2B178862004C598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D72846C2B178862004C598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB11AFE2148FD6D0AD8F67D /* Pods-Generating a random password.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5GYW8VT22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Generating a random password/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nepena.Generating-a-random-password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D72846D2B178862004C598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1803643C62D54C355C34B9 /* Pods-Generating a random password.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5GYW8VT22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Generating a random password/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nepena.Generating-a-random-password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7284522B17885F004C598A /* Build configuration list for PBXProject "Generating a random password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7284692B178862004C598A /* Debug */,
+				9D72846A2B178862004C598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D72846B2B178862004C598A /* Build configuration list for PBXNativeTarget "Generating a random password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D72846C2B178862004C598A /* Debug */,
+				9D72846D2B178862004C598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D176E252B17D53500920CCF /* PasswordModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D176E262B17D53500920CCF /* PasswordModel.xcdatamodel */,
+			);
+			currentVersion = 9D176E262B17D53500920CCF /* PasswordModel.xcdatamodel */;
+			path = PasswordModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D72844F2B17885F004C598A /* Project object */;
+}
