@@ -91,6 +91,12 @@ class SecondViewController: UIViewController {
     
     
     @objc func buttonAction() {
+        UIView.animate(withDuration: 0.4, animations: {
+            self.button.backgroundColor = UIColor.systemGray2
+        })
+        UIView.animate(withDuration: 0.1, animations: {
+            self.button.backgroundColor = UIColor.systemBlue
+        })
         passwordGeneration = generationPassword()
         label.text = passwordGeneration
         savePasswordToCoreData(password: passwordGeneration)
@@ -102,6 +108,14 @@ class SecondViewController: UIViewController {
     }
     
     @objc func historyButtonAction() {
+        
+        UIView.animate(withDuration: 0.4, animations: {
+            self.historyButton.backgroundColor = UIColor.systemGray2
+        })
+        UIView.animate(withDuration: 0.1, animations: {
+            self.historyButton.backgroundColor = UIColor.systemBlue
+        })
+        
         let history = HistoryViewController()
         navigationController?.pushViewController(history, animated: true)
     }

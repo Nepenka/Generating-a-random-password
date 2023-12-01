@@ -62,6 +62,13 @@ class ViewController: UIViewController {
         
     }
     @objc func buttonAction() {
+        UIView.animate(withDuration: 0.4, animations: {
+            self.button.backgroundColor = UIColor.systemGray2
+        })
+        UIView.animate(withDuration: 0.1, animations: {
+            self.button.backgroundColor = UIColor.systemBlue
+        })
+        
         let secondViewController = SecondViewController()
         self.navigationController?.pushViewController(secondViewController, animated: true)
 
