@@ -113,7 +113,7 @@ class SecondViewController: UIViewController {
             self.historyButton.backgroundColor = UIColor.systemGray2
         })
         UIView.animate(withDuration: 0.1, animations: {
-            self.historyButton.backgroundColor = UIColor.systemBlue
+            self.historyButton.backgroundColor = UIColor.clear
         })
         
         let history = HistoryViewController()
